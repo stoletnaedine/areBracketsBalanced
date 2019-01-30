@@ -9,7 +9,7 @@ const areBracketsBalanced = (brackets) => {
       result = false;
       break;
     }
-    left === right ? result = true : result = false;
+    result = left === right;
   }
   return result;
 }
